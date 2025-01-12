@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title><%= currency %> Cryptocurrency Price</title>
+</head>
+<body>
+    <h1>Cryptocurrency Price for <%= currency %></h1>
+    <p>Last Price: <%= rate.last %> <%= rate.symbol %></p>
+    <p>Buy Price: <%= rate.buy %> <%= rate.symbol %></p>
+    <p>Sell Price: <%= rate.sell %> <%= rate.symbol %></p>
+    <a href="/">Check Another</a>
+</body>
+</html>
